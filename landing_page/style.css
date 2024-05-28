@@ -1,0 +1,84 @@
+/* custom CSS */
+.sp-btn{
+    width: 189px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    position: relative;
+    top:-90px;
+    left: 65px;
+    background-color: rgb(46, 191, 223);
+}
+.c-clr{
+    background-color: aquamarine;
+}
+
+ .sml{
+    width:100%;
+    height: 150px;
+ 
+}
+.big{
+    width:100%;
+    height: 300px;
+} 
+
+/* client section */
+.bg-img{
+    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+border-radius: 1px;
+height: 700px;
+}
+.img{
+    height: 70px;
+    width: 70px;
+    position:relative;
+    left:-215px;
+    top:-20px;
+
+}
+.mov{
+    position:relative;
+    z-index: 1;
+    top:-400px;
+    left: -70px;
+   
+}
+.cus-card{
+    width:75%;
+    height: 220px;
+}
+@media screen and (max-width:576px) 
+{
+    .sp-btn{
+        width:130px;
+        height:60;
+        position:absolute;
+        top:530px;
+        left: 80px;
+    }
+    .sp-btn h2{
+        font-size:medium;
+    }
+    .sp-btn p{
+        font-size: small;
+    }
+    /* clients section */
+    .bg-img{
+       
+    height: 900px;
+    }
+    .img{
+        left:-115px;
+    }
+    .mov{
+    
+        top:-400px;
+        left: -20px;
+       
+    }
+    .cus-card{
+    
+        height: 280px;
+    }
+}
