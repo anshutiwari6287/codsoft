@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -12,7 +12,7 @@ body {
     overflow: hidden;
 }
 
-/* Header Styles */
+
 header {
     background: #333;
     color: #fff;
@@ -24,7 +24,7 @@ header .tagline {
     font-style: italic;
 }
 
-/* About Section Styles */
+
 #about {
     padding: 20px 0;
     text-align: center;
@@ -41,7 +41,7 @@ header .tagline {
     margin-top: 20px;
 }
 
-/* Skills Section Styles */
+
 #skills {
     background: #f4f4f4;
     padding: 20px 0;
@@ -50,7 +50,7 @@ header .tagline {
 
 #skills ul {
     list-style: none;
-    padding: 0;
+    padding: center;
 }
 
 #skills li {
@@ -58,21 +58,34 @@ header .tagline {
     margin: 0 10px;
 }
 
-/* Projects Section Styles */
+
 #projects {
-    padding: 20px 0;
+    padding: 40px 30px; 
+}
+
+#projects h2 {
+    text-align: center;
 }
 
 #projects .project {
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
-#projects img {
-    max-width: 100%;
+#projects .project h3 {
+    flex: 1;
+    text-align: center;
+}
+
+#projects .project img {
+    flex: 0 0 auto;
+    max-width: 70%;
     height: auto;
 }
 
-/* Resume Section Styles */
+
 #resume {
     background: #f4f4f4;
     padding: 20px 0;
@@ -91,7 +104,7 @@ header .tagline {
     background: #ddd;
 }
 
-/* Contact Section Styles */
+
 #contact {
     padding: 20px 0;
     text-align: center;
@@ -102,11 +115,10 @@ header .tagline {
     text-decoration: none;
 }
 
-/* Footer Styles */
+
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
-
